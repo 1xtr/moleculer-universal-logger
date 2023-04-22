@@ -1,0 +1,63 @@
+{
+  "name": "@1xtr/moleculer-universal-logger",
+  "version": "1.0.0",
+  "description": "Send Moleculer logs to any endpoint (DataDog, LogTail, Newrelic, etc)",
+  "main": "src/cjs/index.js",
+  "module": "src/mjs/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/mjs/index.mjs",
+      "require": "./src/cjs/index.js"
+    }
+  },
+  "scripts": {
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1xtr/moleculer-universal-logger.git"
+  },
+  "keywords": [
+    "moleculer",
+    "rest",
+    "log",
+    "logger",
+    "api"
+  ],
+  "author": "Aleksei Anisimov <i@trendco.dev>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/1xtr/moleculer-universal-logger/issues"
+  },
+  "homepage": "https://github.com/1xtr/moleculer-universal-logger#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "isomorphic-fetch": "^3.0.0",
+    "moleculer": "^0.14.8"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "prettier": "^2.8.7"
+  },
+  "prettier": {
+    "semi": false,
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "printWidth": 100
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    }
+  }
+}
