@@ -46,14 +46,14 @@ if (NODE_VERSION < 18) {
  * UniversalLogger logger for Moleculer
  *
  * @constructor
- * @class UniversalLoggerLogger
+ * @class UniversalLogger
  * @extends {Loggers.Base}
  */
-export class UniversalLoggerLogger extends Loggers.Base {
+export class UniversalLogger extends Loggers.Base {
   /**
-   * Creates an instance of UniversalLoggerLogger.
+   * Creates an instance of UniversalLogger.
    * @param {UniversalLoggerOptions} opts
-   * @memberof UniversalLoggerLogger
+   * @memberof UniversalLogger
    */
   constructor(opts) {
     super(opts)

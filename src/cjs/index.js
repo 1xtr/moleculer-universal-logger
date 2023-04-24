@@ -47,15 +47,15 @@ if (NODE_VERSION < 18) {
  * UniversalLogger logger for Moleculer
  *
  * @constructor
- * @class UniversalLoggerLogger
+ * @class UniversalLogger
  * @property {import('moleculer').ServiceBroker} broker - Moleculer broker
  * @extends {BaseLogger}
  */
-class UniversalLoggerLogger extends BaseLogger {
+class UniversalLogger extends BaseLogger {
   /**
-   * Creates an instance of UniversalLoggerLogger.
+   * Creates an instance of UniversalLogger.
    * @param {UniversalLoggerOptions} opts
-   * @memberof UniversalLoggerLogger
+   * @memberof UniversalLogger
    */
   constructor(opts) {
     super(opts)
@@ -196,4 +196,4 @@ class UniversalLoggerLogger extends BaseLogger {
   }
 }
 
-module.exports = UniversalLoggerLogger
+module.exports = UniversalLogger
