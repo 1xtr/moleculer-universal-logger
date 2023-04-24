@@ -55,7 +55,7 @@ export class UniversalLogger extends Loggers.Base {
    * @param {UniversalLoggerOptions} opts
    * @memberof UniversalLogger
    */
-  constructor(opts) {
+  constructor(opts = {}) {
     super(opts)
 
     this.opts = _.defaultsDeep(this.opts, {

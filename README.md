@@ -1,4 +1,4 @@
-<img src="https://moleculer.services/images/banner.png" alt="Moleculer_Logo" width="50%"/>
+![Moleculer logo](http://moleculer.services/images/banner.png)
 
 [![NPM version](https://img.shields.io/npm/v/@1xtr/moleculer-universal-logger.svg)](https://www.npmjs.com/package/@1xtr/moleculer-universal-logger) ![NPM Downloads](https://img.shields.io/npm/dw/@1xtr/moleculer-universal-logger)
 

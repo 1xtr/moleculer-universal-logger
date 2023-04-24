@@ -57,7 +57,7 @@ class UniversalLogger extends BaseLogger {
    * @param {UniversalLoggerOptions} opts
    * @memberof UniversalLogger
    */
-  constructor(opts) {
+  constructor(opts = {}) {
     super(opts)
 
     /**
