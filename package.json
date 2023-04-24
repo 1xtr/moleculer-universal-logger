@@ -1,6 +1,6 @@
 {
   "name": "@1xtr/moleculer-universal-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send Moleculer logs to any endpoint (DataDog, LogTail, Newrelic, etc)",
   "main": "src/cjs/index.js",
   "module": "src/mjs/index.js",
